@@ -1,0 +1,19 @@
+.project-page-component {
+  display: flex;
+  height: 100%;
+  position: relative;
+  
+  .project-page-component__side-view {
+    padding: var(--padding-md) var(--padding-md);
+    max-width: 35rem;
+    width: 100%;
+    border-right: 1px solid var(--font-color);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-sm);
+  }
+
+  .project-page-component__editor-view {
+    flex: 1;
+  }
+}
